@@ -1,0 +1,20 @@
+{
+  "name": "chapter02-hsl-to-rgb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenx2020/hsl-to-rgb.git"
+  },
+  "keywords": [],
+  "author": "steven xie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenx2020/hsl-to-rgb/issues"
+  },
+  "homepage": "https://github.com/stevenx2020/hsl-to-rgb#readme"
+}
