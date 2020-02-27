@@ -28,4 +28,3 @@ var hsl2rgbHex = (hue, saturation, luminosity) => {
 };
 
 module.exports.hsl = hsl2rgbHex;
-

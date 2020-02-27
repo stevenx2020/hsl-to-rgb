@@ -1,5 +1,5 @@
 const expect = require('expect');
-const hsl = require('../').hsl2rgbHex;
+const hsl = require('../').hsl;
 
 describe('index.js tests', () => {
   it('should be pure white', () => {

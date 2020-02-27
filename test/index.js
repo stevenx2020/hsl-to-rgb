@@ -1,4 +1,4 @@
-const hsl = require('../').hsl2rgbHex;
+const hsl = require('../').hsl;
 const test = require('tap').test;
 
 test('pure white', (assert) => {
