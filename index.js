@@ -27,6 +27,5 @@ var hsl2rgbHex = (hue, saturation, luminosity) => {
   return '#' + rgb.map(n => (256 + n).toString(16).substr(-2)).join('');
 };
 
-module.exports = {
-  hsl2rgbHex
-};
+module.exports.hsl = hsl2rgbHex;
+

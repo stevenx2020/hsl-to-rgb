@@ -1,5 +1,5 @@
 {
-  "name": "chapter02-hsl-to-rgb",
+  "name": "@stevenx2020/hsl-to-hex",
   "version": "1.0.0",
   "description": "Convert HSL colors to RGB colors in hex format.  Required JavaScript Version: >= ES6",
   "main": "index.js",
