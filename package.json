@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint && mocha **/*.test.js && tap test",
+    "lint": "semistandard"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,20 @@
   "bugs": {
     "url": "https://github.com/stevenx2020/hsl-to-rgb/issues"
   },
-  "homepage": "https://github.com/stevenx2020/hsl-to-rgb#readme"
+  "homepage": "https://github.com/stevenx2020/hsl-to-rgb#readme",
+  "dependencies": {
+    "hsl-to-rgb-for-reals": "^1.1.1"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^7.1.0",
+    "semistandard": "^14.2.0",
+    "tap": "^14.10.6"
+  },
+  "semistandard": {
+    "globals": [
+      "it",
+      "describe"
+    ]
+  }
 }
